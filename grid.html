@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>grid</title>
+        <style>
+            #grid{
+                border:5px solid pink;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            div{
+                border:5px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="grid"s>
+            <div>NAVIGATION</div>
+            <div>ARTICLE이 정말 길어졌을 때 어떤 모습인 지 궁금하니까 글을 아무렇게나 많이 써 봅시다. 이것이 바로 그리드라고 하는 겁니다. 아주 최신 기술이죠.</div>
+        </div>
+        <br>
+        block-div / inline-span
+        <P>나란히 배치하려면 감싸는 부모 태그가 필요. id값은 자유롭게 지정.</P>
+        <p>fr은 프레임. 1fr이면 앞에 픽셀 제외 전부. 3fr, 1fr이라면 3:1로 됨</p>
+        <p><a href="https://caniuse.com/">Can I use?</a> - 얼마나 사용되고 있는지 알려줌</p>
+    </body>
+</html>
