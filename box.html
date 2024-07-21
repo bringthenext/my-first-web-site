@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>box model</title>
+        <style>
+            /*
+            block level element : ex h1
+            */
+            h1, a{
+                border-width: 4px;
+                border-color: red;
+                border-style: solid;
+                padding:20px;
+                margin:10px;
+                display:block;
+                width:300px;
+            }
+            /*
+            inline element : ex a
+            */
+            /*
+            a{
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+                display: block;
+            }
+            */
+        </style>
+    </head>
+    <body>
+        <h1>box model</h1>
+        <h1>box model</h1>
+        박스모델 <a href="naver.com">CSS</a>라고 되어있는 부분에 링크를 걸어볼게요.
+        <p>제목은 화면 전체를 쓴다. 하지만 링크는 딱 필요한 것만 사용한다.</p>
+        <br>
+        <ul>
+            <li>화면 전체를 쓰는 태그 : block level element</li>
+            <li>자기 자신의 부피만큼 갖는 태그 : inline element</li>
+        </ul>
+        <br>
+        이에 대하여, 제목이 화면 전체를 쓰고 링크는 자신의 크기만큼 사용한다는 것은 기본값일 뿐이다. 스타일태그에서 display inline이나 block을 사용하면 상태를 변경할 수 있다.
+        <br>border를 중복 입력하게 되는 건에 대하여 <strong> border:5px solid red</strong>로 심플하게 써도 됨.
+        <li>/* CSS에서는 주석을 이렇게 단다. */</li>
+        패딩과 마진.
+    </body>
+</html>
